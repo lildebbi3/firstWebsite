@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <title>Loan Calculator</title>
+  <link rel="shortcut icon" type="image/png" href="tanky.png">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="topnav">
+    <a href="index.html">Welcome</a>
+    <a href="ytPage.html">Youtube</a>
+    <a href="timerPage.html">Timer</a>
+    <a href="memePage.html">Memes</a>
+    <a href="loanCal.html">Loan Calculator</a>
+  </div>
+  <div id="container" class="content box">
+    <script src="codeLC.js"></script>
+    <h2><b><label for="amountInput">Loan Amount</label><br>
+        <input type="number" id="amountInput"></input><br>
+        <br>
+        <label for="yearsInput">Loan Term</label><br>
+        <input type="number" id="yearsInput">
+
+        <br><br>
+        <label for="interestInput">Interest Rate</label><br>
+        <input type="number" id="interestInput">
+        <br><br>
+        <button class="button" onclick="document.getElementById('codeLC.js').innerHTML= resultClear()">Reset</button>
+        <button class="button" onclick="document.getElementById('codeLC.js').innerHTML= loanCal()">Calculate</button>
+        <br>
+        <textarea id="results" rows="4" cols="30" readonly></textarea>
+      </b></h2>
+  </div>
+
+</body>
+
+</html>

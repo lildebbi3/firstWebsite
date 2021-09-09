@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Lildebbie Timer</title>
+    <link rel="shortcut icon" type="image/png" href="tanky.png">
+    <script src="script.js"></script>
+</head>
+
+<div id="topnav">
+    <a href="index.html">Welcome</a>
+    <a href="ytPage.html">Youtube</a>
+    <a href="timerPage.html">Timer</a>
+    <a href="memePage.html">Memes</a>
+    <a href="loanCal.html">Loan Calculator</a>
+
+</div>
+<audio id="audio">
+    <source src="alarm_Bell.wav" type="audio/wav">
+</audio>
+
+<body>
+    <script src="timerCode.js"></script>
+    <p>
+        <font size="5">Lildebbie's Final Countdown</font>
+    </p>
+    <h1 id="demo"></h1>
+
+    <input value="" type="datetime-local" id="timerInput" max="60" min="0"></input>
+    <button class="button" onclick=oneH()>Set</button>
+    <button class="button" onclick=stopAlarm()>Snooze</button>
+    </form>
+
+
+    </div>
+
+</body>
+
+</html>
